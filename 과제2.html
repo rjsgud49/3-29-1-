@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>과제 2</title>
+</head>
+<body>
+
+<input type="number" id="numberInput">
+<button onclick="checkOddEven()">홀수/짝수 확인</button>
+
+<script>
+function checkOddEven() {
+    let number = document.getElementById("numberInput").value;
+    if (number % 2 === 0) {
+        alert(number + "짝수입니다.");
+    } else {
+        alert(number + "홀수입니다.");
+    }   
+}
+</script>
+
+</body>
+</html>
